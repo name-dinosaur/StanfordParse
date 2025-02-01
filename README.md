@@ -30,3 +30,5 @@ Which iterates through data folder reading pdfs to count words
 This will create output csv freq_count.csv
 
 Open csv and look at words counts
+
+NOTE- ensure everything is connected to correct venv
