@@ -17,12 +17,14 @@ Pick 3 pdf urls from gov website.
 
 Paste urls into pdfdownloadselenium.py
 
-Run pdfdownloadselenium - which creates data folder and puts 3 pdfs into data folder, for me it named them 02036_01, 21019, 96001_01. 
+Run pdfdownloadselenium - which creates data folder and puts 3 pdfs into data folder, for me it named them 02036_01, 21019, 96001_01.
+
 These correspond to AGRICULTURAL LAND COMMISSION ACT, ACCESSIBLE BRITISH COLUMBIA ACT, ACCESS TO ABORTION SERVICES ACT
 
 After pdfs downloaded run 
 
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+
 CTRL-C shuts the server down
 
 Next run parsing.py
